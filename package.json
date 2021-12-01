@@ -1,0 +1,10 @@
+{
+  "name": "advent",
+  "version": "1.0.0",
+  "description": "My solutions to Advent of Code 2021",
+  "main": "index.js",
+  "type": "module",
+  "repository": "git@github.com:voraciousdev/advent.git",
+  "author": "David R. Myers <davidrmyersii@gmail.com>",
+  "license": "MIT"
+}
