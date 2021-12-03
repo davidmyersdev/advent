@@ -1,8 +1,6 @@
-import { read } from '../utils.js'
+import { readLines } from '../utils.js'
 
-const input = read(import.meta.url, 'input.txt')
-
-const readings = input.trim().split('\n').map(num => parseInt(num))
+const readings = readLines(import.meta.url, 'input.txt').map(num => parseInt(num))
 
 // part 1
 const one = readings.reduce((increases, reading, index) => {
